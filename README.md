@@ -87,8 +87,4 @@ Feel free to extend this project:
 AI/ML Engineer | Research & Deep Learning | Bayesian/Uncertainty Learning  
 GitHub: https://github.com/SharmaShivani12  
 
----
 
-If you want, I can help you create a **Jupyter Notebook version** or an **extended Bayesian uncertainty demo** on real data.
-
-Enjoy exploring Bayesian models! 🚀
