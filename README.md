@@ -84,26 +84,8 @@ Higher uncertainty → model is less confident.
 Lower uncertainty → more reliable prediction.
 
 ---
+<img width="588" height="463" alt="image" src="https://github.com/user-attachments/assets/3cc68e98-d12c-4672-b962-4482cdd34a0e" />
 
-## 📌 Concepts Demonstrated
-
-- Monte Carlo Dropout
-- Bayesian Neural Networks (approximation)
-- Uncertainty Quantification
-- PyTorch experimentation workflow
-- Reproducible ML mini research setup
-
----
-
-## 🧱 Potential Extensions
-
-Feel free to extend this project:
-
-- Train on real datasets instead of random tensors  
-- Add visualization for uncertainty distribution  
-- Compare deterministic vs Bayesian behavior  
-- Apply to aerospace, fault-detection, or safety-critical ML tasks  
-- Add calibration metrics (ECE, reliability diagrams)  
 
 ---
 
