@@ -11,6 +11,8 @@ Probabilistic deep learning returns a confidence level behind that number.
 
 This work showcases how dropout at inference can approximate Bayesian Neural Networks, enabling models to express when they're confident or uncertain — a key component in trustworthy & interpretable AI.
 
+**Kaggle Notebook** : https://www.kaggle.com/code/shivanisharma1297/bayesian-uncertainty-mini-study/
+
 ## 📊 Dataset
 
 Breast Cancer Wisconsin Diagnostic Dataset
