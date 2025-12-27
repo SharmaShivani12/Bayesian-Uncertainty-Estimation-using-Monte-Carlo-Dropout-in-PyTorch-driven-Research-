@@ -84,10 +84,14 @@ Higher uncertainty → model is less confident.
 Lower uncertainty → more reliable prediction.
 
 ---
-## Results 
+##🔍 Result Summary
+
 <img width="317" height="97" alt="image" src="https://github.com/user-attachments/assets/98e0cef9-c136-4d51-881b-3c8c5c2479a0" />
 
+
 <img width="588" height="463" alt="image" src="https://github.com/user-attachments/assets/3cc68e98-d12c-4672-b962-4482cdd34a0e" />
+
+
 <img width="589" height="452" alt="image" src="https://github.com/user-attachments/assets/4dd2e71a-0399-47d5-b943-d5c27e50739a" />
 
 
