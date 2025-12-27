@@ -1,8 +1,27 @@
 
-# Bayesian Uncertainty Mini-Study 🧠🔎
+# Bayesian Uncertainty Estimation using Monte Carlo Dropout in PyTorch 🧠🔎
 
-This mini project demonstrates **Bayesian uncertainty estimation using Monte Carlo Dropout in PyTorch**.  
-The goal is to show how neural networks can express **predictive confidence**, not just predictions — a valuable concept for **reliable AI systems such as aerospace, medical diagnostics, safety-critical ML, and research applications**.
+🧠 Overview
+
+This project demonstrates Bayesian uncertainty estimation using Monte Carlo Dropout in a neural network trained on the Breast Cancer Wisconsin Diagnostic Dataset.
+Instead of returning a single prediction, the model estimates both prediction and uncertainty, which is essential for aerospace, reliability-critical ML systems, anomaly detection, and healthcare diagnostics.
+
+Traditional deep learning returns a number.
+Probabilistic deep learning returns a confidence level behind that number.
+
+This work showcases how dropout at inference can approximate Bayesian Neural Networks, enabling models to express when they're confident or uncertain — a key component in trustworthy & interpretable AI.
+
+## 📊 Dataset
+
+Breast Cancer Wisconsin Diagnostic Dataset
+
+Binary classification: Malignant vs Benign
+
+30 input features per sample
+
+Well-suited for uncertainty research & calibration studies
+
+📎 Source: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
 ---
 
@@ -15,6 +34,13 @@ From these samples, we compute:
 - **Standard deviation** → uncertainty estimate (confidence)
 
 This helps identify when the model is unsure — essential for **probabilistic deep learning and uncertainty quantification**.
+| Method                 | Description                             |
+| ---------------------- | --------------------------------------- |
+| **Architecture**       | 2-layer MLP with Dropout                |
+| **Training Objective** | Binary cross-entropy                    |
+| **Bayesian Mechanism** | Dropout enabled during inference        |
+| **Uncertainty Source** | Variance across multiple forward passes |
+
 
 ---
 
